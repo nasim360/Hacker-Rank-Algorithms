@@ -34,7 +34,7 @@ int diagonalDifference(int arr_rows, int arr_columns, int** arr) {
                 d1 += arr[i][j]; 
   
             // finding sum of secondary diagonal 
-            if (i == 3 - j - 1) 
+            if (i == arr_rows - j - 1) 
                 d2 += arr[i][j]; 
         } 
     }
